@@ -1,0 +1,17 @@
+{
+	"python.languageServer": "Pylance",
+	"python.analysis.diagnosticSeverityOverrides": {
+		"reportMissingModuleSource": "none",
+		"reportShadowedImports": "none"
+	},
+	"python.analysis.extraPaths": [
+		"",
+		"/Users/danielleibensperger/.vscode/extensions/joedevivo.vscode-circuitpython-0.2.0-darwin-arm64/stubs",
+		"/Users/danielleibensperger/Library/Application Support/Code/User/globalStorage/joedevivo.vscode-circuitpython/bundle/20250119/adafruit-circuitpython-bundle-py-20250119/lib",
+		"/Users/danielleibensperger/microcontroller projects/RGBWebserverMicropython/Micropython/.micropy/BradenM-micropy-stubs-4f5a52a/frozen",
+		"/Users/danielleibensperger/microcontroller projects/RGBWebserverMicropython/Micropython/.micropy/BradenM-micropy-stubs-ebac1d3/stubs",
+		"/Users/danielleibensperger/microcontroller projects/RGBWebserverMicropython/Micropython/.micropy/BradenM-micropy-stubs-ebac1d3/frozen"
+
+	],
+	"circuitpython.board.version": null
+}
