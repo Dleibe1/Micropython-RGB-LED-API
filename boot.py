@@ -3,8 +3,8 @@ import network
 import time
 import ubinascii
 
-wlan_id = "kutzeberts"
-wlan_pass = "ebertskutz"
+wlan_id = "YOUR-LAN-IOD"
+wlan_pass = "YOUR-LAN-PW"
 
 mac = ubinascii.hexlify(network.WLAN().config('mac'),':').decode()
 print("MAC: " + mac)
